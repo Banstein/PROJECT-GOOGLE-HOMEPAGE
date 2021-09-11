@@ -1,2 +1,2 @@
-# Project-Google-Homepage
+# Google Homepage
 Odin Project #1
