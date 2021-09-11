@@ -1,2 +1,3 @@
-# Odin Project #1
+# PROJECT: GOOGLE HOMEPAGE
+Odin Project #1
 
