@@ -1,3 +1,3 @@
 # PROJECT: GOOGLE HOMEPAGE
-Odin Project #1
+https://banstein.github.io/PROJECT-GOOGLE-HOMEPAGE/
 
