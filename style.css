@@ -1,0 +1,145 @@
+
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 22px;
+  margin-left: 12px;
+}
+nav div a {
+  height: 47px;
+  font-weight: lighter;
+  padding: 5px;
+  white-space: nowrap;
+  text-decoration: none;
+  color: black;
+  margin: 0px 5px;
+  position: relative;
+}
+nav .right {
+  margin-top: -5px;
+  display: flex;
+  margin-right: 10px;
+}
+button.dots-button {
+  width: 22px;
+  height: 22px;
+  background-image: url(images/dot-icon-20.jpg);
+  background-size: 22px;
+  border: none;
+  cursor: pointer;
+  transform: translateY(-18%);
+}
+.potato {
+  width: 35px;
+  height: 35px;
+  background-image: url(images/potato.jpg);
+  background-size: 35px;
+  border: none;
+  cursor: pointer;
+  transform: translateY(-8%);
+  border-radius: 50%;
+}
+nav div a:hover {
+  text-decoration: underline;
+}
+main div {
+  position: relative;
+}
+main .logo {
+  position: fixed; 
+  left: 50%; 
+  top: 19.6%; 
+  transform: translate(-50%, 0%);
+}
+main .search {
+  position: fixed; 
+  left: 39.1%; 
+  top: 29.45%; 
+  z-index: 1;
+}
+.search-box {
+  display: flex;
+}
+.search-box:hover {
+  box-shadow: 0px 0px 4px 0.5px #D3D3D3;
+}
+.search-box input {
+  padding-right: 20px;
+  position: fixed;
+  outline: none;
+  border: none;
+  left: 50%;
+  top: 28.7%;
+  position: fixed;
+  border: 0.5pt solid rgb(224, 224, 224);
+  border-radius: 25px;
+  width: 582px;
+  height: 44px;
+  background-color: white;
+  transform: translate(-50%, 0%);
+  text-indent: 40px;
+}
+.search-box input:focus-visible {
+  box-shadow: 0px 0px 4px 0.5px #D3D3D3;
+
+}
+main .buttons {
+  position: fixed;
+  display: flex;
+  left: 50%;
+  top: 34.2%;
+  transform: translate(-50%, 0%);
+}
+.buttons  button {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 0.3;
+  padding: 16px;
+  font-size: 14px;
+  background-color: rgb(245, 245, 245, 0.8) ;
+  margin: 0 5px;
+  height: 35px;
+  width: auto;
+  border: none;
+}
+.buttons button:hover {
+  border-radius: 5px;
+  border: 1px solid rgba(172, 172, 172, 0.4);
+  box-shadow: 0px 1px 0px 0.5px #D3D3D3;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer;
+}
+.buttons button:active {
+  border:  1px blue solid;
+}
+.buttons  button > a {
+  text-decoration: none;
+  color: black;
+}
+footer nav {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  height: 47.5px;
+  padding: 5px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+footer nav div {
+  margin: 0 20px;
+}
+footer nav a {
+  padding: 10px;
+  line-height: 2.7;
+  color: #70757a;
+}
